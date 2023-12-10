@@ -8,7 +8,7 @@ TollGuruRouter.post('/api/tollguru/v1', async (req, res) => {
    
 
     const apiUrl = 'https://apis.tollguru.com/toll/v2/origin-destination-waypoints';
-    const apiKey = 'GrbtD9BJq42qm6L4bP3qggM3NLhhT7rB';
+    const apiKey = '98NGb6nJQjrjfnFhbNN8DbnQR9HHJd66';
 
     const response = await axios.post(apiUrl, req.body, {
       headers: {
